@@ -1,0 +1,97 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.navigation {
+  width: 50rem;
+  padding: auto;
+  line-height: 2rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000000;
+  padding: 1rem;
+}
+
+.container {
+  width: 50rem;
+  margin: 0;
+}
+
+.container__text {
+  width: 50rem;
+  padding: 2rem 5rem;
+  text-align: left;
+}
+
+.container__header {
+  background-image: url(img/banner.jpg);
+  color: #ffffff;
+}
+
+.container__header h1 {
+  text-align: left;
+}
+
+.heading-b {
+  color: #ffe964;
+}
+
+.heading-i {
+  color: #ff523d;
+}
+
+.heading-k {
+  color: #223c88;
+}
+
+.container__mission {
+  background-color: #ffe964;
+}
+
+.container__mission .container__text {
+  text-align: center;
+}
+
+.container__about {
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.container__team {
+  background-color: #ff523d;
+  color: #ffffff;
+}
+
+.container__team__member {
+  text-align: center;
+}
+
+.member__name {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.member__position {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.container__contact {
+  background-color: #223c88;
+  color: #ffffff;
+}
