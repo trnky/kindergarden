@@ -15,8 +15,12 @@ body {
   text-align: center;
 }
 
-.navigation {
+.main {
   width: 50rem;
+  margin: 0 auto;
+}
+
+.navigation {
   padding: auto;
   line-height: 2rem;
 }
